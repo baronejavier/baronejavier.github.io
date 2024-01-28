@@ -388,7 +388,7 @@ const productos = [
     },
     {
         nombre: "Sonic",
-        oferta: true,
+        oferta: false,
         categoria: "Figuras",
         precio: 6500,
         unidades: 1,
