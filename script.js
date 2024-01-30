@@ -633,7 +633,7 @@ const productos = [
         nombre: "Soporte para casco con llavero",
         oferta: false,
         categoria: "Herramientas",
-        precio: 3000,
+        precio: 3500,
         unidades: 1,
         imagen: "img/casco.jpg",
         descripcion: "Soporte de pared para casco de moto con llavero incluido. El precio es por unidad."
