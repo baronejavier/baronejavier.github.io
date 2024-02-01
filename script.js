@@ -228,7 +228,7 @@ const productos = [
         nombre: "Copa del mundo personalizada",
         oferta: false,
         categoria: "Adornos",
-        precio: 6500,
+        precio: 7500,
         unidades: 1,
         imagen: "img/copa.jpg",
         descripcion: "Copa del mundo, de 22 cm de altura, de material PLA y pintada a mano. El precio es por unidad."
