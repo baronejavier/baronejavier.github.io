@@ -333,6 +333,15 @@ const productos = [
         descripcion: "Figura de Pochita articulada, 13 cm de altura y 16 cm de largo, impresa con material PLA. El precio es por unidad."
     },
     {
+        nombre: "Vegeta 32 cm de altura",
+        oferta: false,
+        categoria: "Figuras",
+        precio: 18000,
+        unidades: 1,
+        imagen: "img/majin vegeta.png",
+        descripcion: "Figura de Vegeta, de 32 cm de altura. Impresa con material PLA y pintada a mano. El precio es por unidad."
+    },
+    {
         nombre: "Dragon Ball de 20 cm de altura",
         oferta: true,
         categoria: "Figuras",
