@@ -423,10 +423,19 @@ const productos = [
         descripcion: "Figura de Sonic de 10 cm de altura, impresa con material PLA. El precio es por unidad."
     },
     {
+        nombre: "Five Nights At Freddy",
+        oferta: false,
+        categoria: "Figuras",
+        precio: 5000,
+        unidades: 1,
+        imagen: "img/freddy.jpg",
+        descripcion: "Figura articulada de Five Nights At Freddy, de 15 cm de largo. El precio es por unidad."
+    },
+    {
         nombre: "Speakerman large de Skibidi Toilet",
         oferta: false,
         categoria: "Figuras",
-        precio: 4500,
+        precio: 5500,
         unidades: 1,
         imagen: "img/speakerman.jpg",
         descripcion: "Figura articulada de Speakerman large de Skibidi Toilet, de 19 cm de largo. El precio es por unidad."
