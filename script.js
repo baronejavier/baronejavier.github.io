@@ -162,15 +162,6 @@ const productos = [
         descripcion: "Modelos de macetas de meditación de 8 cm de altura, disponibles en transparente, blanco y bronce. El precio es por unidad."
     },
     {
-        nombre: "Cuadro personalizado litofanía",
-        oferta: false,
-        categoria: "Adornos",
-        precio: 6000,
-        unidades: 1,
-        imagen: "img/cuadro litofania.jpg",
-        descripcion: "Cuadro personalizado de litofanía 3d, de 10 cm x 10 cm. El precio es por unidad."
-    },
-    {
         nombre: "Florero dona y maceta David",
         oferta: false,
         categoria: "Adornos",
@@ -547,15 +538,6 @@ const productos = [
         unidades: 1,
         imagen: "img/PS5 cd.jpg",
         descripcion: "Porta CD de consola PS5, impreso con material PLA. El precio es por unidad."
-    },
-    {
-        nombre: "Llaveros de litofanía",
-        oferta: false,
-        categoria: "Llaveros",
-        precio: 3000,
-        unidades: 1,
-        imagen: "img/llavero litofania.jpg",
-        descripcion: "Llaveros personalizado de litofanía, impreso con material PLA. El precio es por unidad."
     },
     {
         nombre: "Llaveros de personajes",
