@@ -543,8 +543,8 @@ const productos = [
         nombre: "Llaveros de personajes",
         oferta: false,
         categoria: "Llaveros",
-        precio: 2000,
-        unidades: 1,
+        precio: 6000,
+        unidades: 4,
         imagen: "img/llaveros personajes.jpg",
         descripcion: "Llaveros de personajes, impresos con material PLA y pintados a mano. El precio es por unidad."
     },
