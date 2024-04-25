@@ -19,7 +19,7 @@ const productos = [
     },
     {
         nombre: "Mate de Rugby",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 12000,
         unidades: 1,
@@ -372,16 +372,16 @@ const productos = [
         nombre: "Pokemon",
         oferta: false,
         categoria: "Figuras",
-        precio: 22000,
-        unidades: 4,
+        precio: 5500,
+        unidades: 1,
         imagen: "img/pokemon.jpg",
-        descripcion: "Figuras de Squirtle (10 cm de altura), Charmander (10 cm de altura), Bulbasaur (8 cm de altura), Pikachu (10 cm de altura) y Jigglypuff (8 cm de altura). Impresas con material PLA. El precio es por cuatro unidades."
+        descripcion: "Figuras de Squirtle (10 cm de altura), Charmander (10 cm de altura), Bulbasaur (8 cm de altura), Pikachu (10 cm de altura) y Jigglypuff (8 cm de altura). Impresas con material PLA. El precio es por cada unidad."
     },
     {
         nombre: "La Bella y la Bestia",
         oferta: true,
         categoria: "Figuras",
-        precio: 20000,
+        precio: 25000,
         unidades: 5,
         imagen: "img/bella y bestia.jpg",
         descripcion: "Figuras de Din Don (13 cm de altura), Bella (10 cm de altura), Sra.Potts (12 cm de altura), Chip (7 cm de altura) y Lumiere (15 cm de altura). Impresas con material PLA. El precio es por las cinco unidades."
