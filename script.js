@@ -1,7 +1,7 @@
 const productos = [
     {
         nombre: "Set de mate de Stitch",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 20000,
         unidades: 1,
@@ -10,7 +10,7 @@ const productos = [
     },
     {
         nombre: "Mates grandes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 10500,
         unidades: 1,
@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 10000,
         unidades: 1,
@@ -64,7 +64,7 @@ const productos = [
     },
     {
         nombre: "Mates de personajes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 8500,
         unidades: 1,
@@ -118,7 +118,7 @@ const productos = [
     },
     {
         nombre: "Macetas de Afrodita y Venus",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 12000,
         unidades: 1,
@@ -127,7 +127,7 @@ const productos = [
     },
     {
         nombre: "Macetas Baby Groot",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 13000,
         unidades: 1,
@@ -136,7 +136,7 @@ const productos = [
     },
     {
         nombre: "Macetas Robert",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 9000,
         unidades: 2,
@@ -145,7 +145,7 @@ const productos = [
     },
     {
         nombre: "Macetas de David/ Bob Patiño",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 12000,
         unidades: 1,
@@ -154,7 +154,7 @@ const productos = [
     },
     {
         nombre: "Macetas de animales",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 12500,
         unidades: 2,
@@ -163,7 +163,7 @@ const productos = [
     },
     {
         nombre: "Macetas de meditación",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 5000,
         unidades: 1,
@@ -172,7 +172,7 @@ const productos = [
     },
     {
         nombre: "Florero dona y maceta David",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 17000,
         unidades: 2,
@@ -226,7 +226,7 @@ const productos = [
     },
     {
         nombre: "Cuadritos decorativos",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 16500,
         unidades: 4,
@@ -253,7 +253,7 @@ const productos = [
     },
     {
         nombre: "Elefantes de la fortuna",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 9000,
         unidades: 1,
@@ -262,7 +262,7 @@ const productos = [
     },
     {
         nombre: "Porta lápices",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 9500,
         unidades: 1,
@@ -280,7 +280,7 @@ const productos = [
     },
     {
         nombre: "Otros adornos",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 6000,
         unidades: 1,
@@ -289,7 +289,7 @@ const productos = [
     },
     {
         nombre: "Demon Slayer",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 10000,
         unidades: 1,
@@ -298,7 +298,7 @@ const productos = [
     },
     {
         nombre: "Nezuko con caja portalapices",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 20500,
         unidades: 1,
@@ -316,7 +316,7 @@ const productos = [
     },
     {
         nombre: "Naruto Uzumaki",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 9500,
         unidades: 1,
@@ -325,7 +325,7 @@ const productos = [
     },
     {
         nombre: "Sasuke Uchiha",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 12000,
         unidades: 1,
@@ -334,7 +334,7 @@ const productos = [
     },
     {
         nombre: "Pochita",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 9500,
         unidades: 1,
@@ -343,7 +343,7 @@ const productos = [
     },
     {
         nombre: "Vegeta 32 cm de altura",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 25000,
         unidades: 1,
@@ -361,7 +361,7 @@ const productos = [
     },
     {
         nombre: "Dragon Ball de 10 cm de altura",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 10500,
         unidades: 2,
@@ -370,7 +370,7 @@ const productos = [
     },
     {
         nombre: "Pokemon",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 5500,
         unidades: 1,
@@ -406,7 +406,7 @@ const productos = [
     },
     {
         nombre: "Attack on Titan",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 17500,
         unidades: 1,
@@ -424,7 +424,7 @@ const productos = [
     },
     {
         nombre: "Sonic",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 10500,
         unidades: 1,
@@ -433,7 +433,7 @@ const productos = [
     },
     {
         nombre: "Five Nights At Freddy",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 7000,
         unidades: 1,
@@ -451,7 +451,7 @@ const productos = [
     },
     {
         nombre: "Figuras articuladas",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 10500,
         unidades: 3,
@@ -514,7 +514,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Mano de Hevy Metal",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 10500,
         unidades: 1,
@@ -523,7 +523,7 @@ const productos = [
     },
     {
         nombre: "Porta auricular de Batman",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 20500,
         unidades: 1,
@@ -613,7 +613,7 @@ const productos = [
     },
     {
         nombre: "Porta esponja de Homero Simpson",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 5000,
         unidades: 1,
@@ -685,7 +685,7 @@ const productos = [
     },
     {
         nombre: "Jabonera y porta cepillos",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 11000,
         unidades: 1,
@@ -694,7 +694,7 @@ const productos = [
     },
     {
         nombre: "Porta cepillos y vomitador de pasta dental de Star Wars",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 12000,
         unidades: 2,
@@ -730,7 +730,7 @@ const productos = [
     },
     {
         nombre: "Porta espiral Dr. Strange",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 10000,
         unidades: 1,
@@ -748,7 +748,7 @@ const productos = [
     },
     {
         nombre: "Soporte para computadoras portatiles netbook (15 pulgadas)",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 16000,
         unidades: 1,
@@ -766,7 +766,7 @@ const productos = [
     },
     {
         nombre: "Soporte para celular o tablet",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 4000,
         unidades: 1,
@@ -784,7 +784,7 @@ const productos = [
     },
     {
         nombre: "Flauta dulce con forma de dragón",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 10000,
         unidades: 1,
@@ -849,7 +849,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.90;
+            const precioactual = producto.precio * 0.75;
             const ahorro = producto.precio - precioactual;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
@@ -857,7 +857,7 @@ function mostrarProductos() {
         <h4>EN OFERTA HASTA AGOTAR STOCK!</h4>
             <h3>${producto.nombre}</h3>
             <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
-            <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud. (-10%, ahorras $${ahorro})</p>
+            <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud. (-25%, ahorras $${ahorro})</p>
         </div>
     `;
 
