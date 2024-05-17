@@ -1,34 +1,25 @@
 /* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
+body, html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
 header {
     background-color: #8BC34A; /* Verde claro */
     padding: 20px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-header img.header-logo {
-    width: 20%;
+header img {
+    width: 20%; /* Reduce la imagen al 50% */
     height: auto;
-    margin-bottom: 20px;
 }
 
-header h1 {
+h1 {
     color: #ffffff; /* Blanco */
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 nav ul {
@@ -36,28 +27,23 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
 }
 
 nav ul li {
     margin: 10px;
+    padding: 10px;
+    border: 1px solid #333333; /* Negro */
+    border-radius: 5px;
+    background-color: #ffffff; /* Blanco */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff; /* Negro */
-    padding: 10px 15px;
-    border: 2px solid #ffffff; /* Negro */
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    color: #333333; /* Negro */
+    display: block;
 }
-
-nav ul li a:hover {
-    background-color: #333333; /* Negro */
-    color: #ffffff; /* Blanco */
-}
-
 
 main {
     padding: 20px;
@@ -68,7 +54,6 @@ footer {
     color: #FFFFFF; /* Blanco */
     text-align: center;
     padding: 10px;
-    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
 }
 
 /* Estilos de la sección "Inicio" */
@@ -76,60 +61,57 @@ footer {
     background-color: #FFFFFF; /* Blanco */
     padding: 50px 0;
     text-align: center;
+    color: #333333; /* Negro */
 }
 
 #inicio h2 {
     font-size: 2.5em;
-    color: #4CAF50; /* Verde natural */
 }
 
 #inicio p {
     font-size: 1.2em;
     margin: 20px 0;
-    color: #666666; /* Gris oscuro */
 }
 
 .beneficios {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    flex-wrap: wrap; /* Para que las columnas se ajusten en dispositivos más pequeños */
 }
 
 .beneficio {
-    flex: 1;
+    flex: 1 1 calc(33.333% - 40px); /* Tres columnas con espacio entre ellas */
     padding: 20px;
-    max-width: 300px;
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
 }
 
 .beneficio img {
     width: 100px;
-    height: 100px;
-    object-fit: cover;
     margin-bottom: 20px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .beneficio h3 {
     font-size: 1.5em;
-    color: #4CAF50; /* Verde natural */
 }
 
 .beneficio p {
     font-size: 1.1em;
-    color: #666666; /* Gris oscuro */
+    text-align: justify;
 }
 
 /* Estilos de la sección "Sobre Nosotros" */
 #sobre-nosotros {
-    background-color: #E8F5E9; /* Verde muy claro */
+    background-color: #F2F2F2; /* Gris claro */
     padding: 50px 0;
     text-align: justify;
+    color: #333333; /* Negro */
 }
 
 #sobre-nosotros h2 {
     font-size: 2.5em;
-    color: #4CAF50; /* Verde natural */
 }
 
 .sobre-nosotros-content {
@@ -149,8 +131,7 @@ footer {
 .sobre-nosotros-texto p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #666666; /* Gris oscuro */
-    line-height: 1.6;
+    text-align: justify;
 }
 
 .sobre-nosotros-texto p:last-child {
@@ -161,44 +142,52 @@ footer {
     width: 100%;
     max-width: 400px;
     margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Estilos de la sección "Servicios" */
 #servicios {
     background-color: #F2F2F2; /* Gris claro */
     padding: 50px 0;
-    text-align: justify;
+    text-align: center;
     color: #333333; /* Negro */
 }
 
 #servicios h2 {
     font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #2a4d14; /* Cambia esto al color que prefieras */
 }
 
 .servicios-grid {
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .servicio {
-    flex: 1;
-    padding: 20px;
+    flex: 1 1 calc(50% - 20px); /* 50% width minus gap */
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .servicio img {
     width: 100%;
+    height: auto;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .servicio h3 {
-    font-size: 1.5em;
+    color: #2a4d14; /* Cambia esto al color que prefieras */
+    margin-bottom: 20px;
 }
 
 .servicio p {
     font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #555;
 }
 
 /* Estilos para cada ítem de pregunta y respuesta */
@@ -208,7 +197,7 @@ footer {
 }
 
 .faq-item h3 {
-    color: #4CAF50; /* Verde natural */
+    color: #333; /* Color del título */
 }
 
 .faq-item p {
@@ -217,7 +206,14 @@ footer {
     line-height: 1.6; /* Espaciado entre líneas */
 }
 
-/* Botón flotante de WhatsApp */
+#servicios .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos del botón flotante de WhatsApp */
 .whatsapp-button {
     position: fixed;
     bottom: 2%;
