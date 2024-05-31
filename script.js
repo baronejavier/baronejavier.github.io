@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: true,
+        oferta: false,
         categoria: "Mates",
         precio: 10000,
         unidades: 1,
@@ -73,7 +73,7 @@ const productos = [
     },
     {
         nombre: "Mates temáticos",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 8000,
         unidades: 1,
@@ -118,7 +118,7 @@ const productos = [
     },
     {
         nombre: "Macetas de Afrodita y Venus",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 12000,
         unidades: 1,
@@ -136,7 +136,7 @@ const productos = [
     },
     {
         nombre: "Macetas Robert",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 9000,
         unidades: 2,
@@ -154,7 +154,7 @@ const productos = [
     },
     {
         nombre: "Macetas de animales",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 12500,
         unidades: 2,
@@ -163,7 +163,7 @@ const productos = [
     },
     {
         nombre: "Macetas de meditación",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 5000,
         unidades: 1,
@@ -172,7 +172,7 @@ const productos = [
     },
     {
         nombre: "Florero dona y maceta David",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 17000,
         unidades: 2,
@@ -226,7 +226,7 @@ const productos = [
     },
     {
         nombre: "Cuadritos decorativos",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 16500,
         unidades: 4,
@@ -235,7 +235,7 @@ const productos = [
     },
     {
         nombre: "Cuadritos decorativos tropicales",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 10500,
         unidades: 3,
@@ -280,7 +280,7 @@ const productos = [
     },
     {
         nombre: "Otros adornos",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 6000,
         unidades: 1,
@@ -343,7 +343,7 @@ const productos = [
     },
     {
         nombre: "Vegeta 32 cm de altura",
-        oferta: true,
+        oferta: false,
         categoria: "Figuras",
         precio: 25000,
         unidades: 1,
@@ -397,7 +397,7 @@ const productos = [
     },
     {
         nombre: "Pandora Box de Pegasus",
-        oferta: true,
+        oferta: false,
         categoria: "Figuras",
         precio: 17000,
         unidades: 1,
@@ -460,7 +460,7 @@ const productos = [
     },
     {
         nombre: "Messi",
-        oferta: true,
+        oferta: false,
         categoria: "Figuras",
         precio: 8000,
         unidades: 1,
@@ -478,7 +478,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Sasuke/ Ironman",
-        oferta: true,
+        oferta: false,
         categoria: "Gamer",
         precio: 25000,
         unidades: 1,
@@ -487,7 +487,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Call of Duty (Ghost)/ Crash Bandicoot",
-        oferta: true,
+        oferta: false,
         categoria: "Gamer",
         precio: 20000,
         unidades: 1,
@@ -496,7 +496,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Spiderman",
-        oferta: true,
+        oferta: false,
         categoria: "Gamer",
         precio: 15000,
         unidades: 1,
@@ -505,7 +505,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de God of War/ Goku",
-        oferta: true,
+        oferta: false,
         categoria: "Gamer",
         precio: 21500,
         unidades: 1,
@@ -685,7 +685,7 @@ const productos = [
     },
     {
         nombre: "Jabonera y porta cepillos",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 11000,
         unidades: 1,
@@ -694,7 +694,7 @@ const productos = [
     },
     {
         nombre: "Porta cepillos y vomitador de pasta dental de Star Wars",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 12000,
         unidades: 2,
@@ -730,7 +730,7 @@ const productos = [
     },
     {
         nombre: "Porta espiral Dr. Strange",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 10000,
         unidades: 1,
@@ -850,7 +850,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.9;
+            const precioactual = producto.precio * 0.5;
             const ahorro = producto.precio - precioactual;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
