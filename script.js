@@ -850,7 +850,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.5;
+            const precioactual = producto.precio * 0.8;
             const ahorro = producto.precio - precioactual;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
