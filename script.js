@@ -844,22 +844,21 @@ function mostrarProductos() {
 
         // Crear el elemento de la división
         const division = document.createElement("div");
-        const mayorista = 0.75
+        const envio = 2400;
         division.classList.add("producto");
         division.id = idProducto;
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
             const precioactual = producto.precio * 0.8;
-            const ahorro = producto.precio - precioactual;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
         <h4>EN OFERTA!</h4>
             <h3>${producto.nombre}</h3>
             <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
-            <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud. (ahorras $${ahorro})</p>
-            <p class="precio">$${producto.precio*3*mayorista} x ${producto.unidades*3} ud. (ahorras $${(producto.precio*3)-(producto.precio*3*mayorista)})</p>
+            <p class="precio">$${precioactual+envio} x ${producto.unidades} ud.</p>
+            <p class="precio">$${(producto.precio*3)+envio} x ${producto.unidades*3} ud. </p>
         </div>
     `;
 
@@ -872,8 +871,8 @@ function mostrarProductos() {
             <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
                 <h3>${producto.nombre}</h3>
                 <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
-                <p class="precio">$${precioactual} x ${producto.unidades} ud.</p>
-                <p class="precio">$${producto.precio*3*mayorista} x ${producto.unidades*3} ud. (ahorras $${(producto.precio*3)-(producto.precio*3*mayorista)})</p>
+                <p class="precio">$${precioactual+envio} x ${producto.unidades} ud.</p>
+                <p class="precio">$${(producto.precio*3)+envio} x ${producto.unidades*3} ud.</p>
             </div>
         `;
             division.innerHTML += productoHTML;
