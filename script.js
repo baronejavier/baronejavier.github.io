@@ -858,7 +858,7 @@ function mostrarProductos() {
             <h3>${producto.nombre}</h3>
             <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
             <p class="precio">$${precioactual+envio} x ${producto.unidades} ud.</p>
-            <p class="precio">$${(producto.precio*3)+envio} x ${producto.unidades*3} ud. </p>
+            <p class="precio">$${(producto.precio*3*0.85)+envio} x ${producto.unidades*3} ud. </p>
         </div>
     `;
 
@@ -872,7 +872,7 @@ function mostrarProductos() {
                 <h3>${producto.nombre}</h3>
                 <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
                 <p class="precio">$${precioactual+envio} x ${producto.unidades} ud.</p>
-                <p class="precio">$${(producto.precio*3)+envio} x ${producto.unidades*3} ud.</p>
+                <p class="precio">$${(producto.precio*3*0.85)+envio} x ${producto.unidades*3} ud.</p>
             </div>
         `;
             division.innerHTML += productoHTML;
