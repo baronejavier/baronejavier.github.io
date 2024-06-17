@@ -844,7 +844,7 @@ function mostrarProductos() {
 
         // Crear el elemento de la división
         const division = document.createElement("div");
-        const envio = 2400;
+        const envio = 0;
         division.classList.add("producto");
         division.id = idProducto;
         // Verificar si el producto está en oferta
