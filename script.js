@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 10000,
         unidades: 1,
@@ -109,7 +109,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de la Tierra",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 8000,
         unidades: 1,
@@ -127,7 +127,7 @@ const productos = [
     },
     {
         nombre: "Macetas Baby Groot",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 13000,
         unidades: 1,
@@ -145,7 +145,7 @@ const productos = [
     },
     {
         nombre: "Macetas de David/ Bob Patiño",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 12000,
         unidades: 1,
@@ -397,7 +397,7 @@ const productos = [
     },
     {
         nombre: "Pandora Box de Pegasus",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 17000,
         unidades: 1,
@@ -478,7 +478,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Sasuke/ Ironman",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 25000,
         unidades: 1,
@@ -487,7 +487,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Call of Duty (Ghost)/ Crash Bandicoot",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 20000,
         unidades: 1,
@@ -505,7 +505,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de God of War/ Goku",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 21500,
         unidades: 1,
@@ -844,21 +844,19 @@ function mostrarProductos() {
 
         // Crear el elemento de la división
         const division = document.createElement("div");
-        const envio = 0;
         division.classList.add("producto");
         division.id = idProducto;
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.8;
+            const precioactual = producto.precio * 0.6;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
         <h4>EN OFERTA!</h4>
             <h3>${producto.nombre}</h3>
             <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
-            <p class="precio">$${precioactual+envio} x ${producto.unidades} ud.</p>
-            <p class="precio">$${(producto.precio*3*0.85)+envio} x ${producto.unidades*3} ud. </p>
+            <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud.</p>
         </div>
     `;
 
@@ -871,8 +869,7 @@ function mostrarProductos() {
             <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
                 <h3>${producto.nombre}</h3>
                 <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
-                <p class="precio">$${precioactual+envio} x ${producto.unidades} ud.</p>
-                <p class="precio">$${(producto.precio*3*0.85)+envio} x ${producto.unidades*3} ud.</p>
+                <p class="precio">$${precioactual} x ${producto.unidades} ud.</p>
             </div>
         `;
             division.innerHTML += productoHTML;
