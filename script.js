@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: true,
+        oferta: false,
         categoria: "Mates",
         precio: 10000,
         unidades: 1,
@@ -307,7 +307,7 @@ const productos = [
     },
     {
         nombre: "Itachi Uchiha",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 16000,
         unidades: 1,
@@ -325,7 +325,7 @@ const productos = [
     },
     {
         nombre: "Sasuke Uchiha",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 12000,
         unidades: 1,
@@ -343,7 +343,7 @@ const productos = [
     },
     {
         nombre: "Vegeta 32 cm de altura",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 25000,
         unidades: 1,
@@ -352,7 +352,7 @@ const productos = [
     },
     {
         nombre: "Dragon Ball de 20 cm de altura",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 16500,
         unidades: 1,
@@ -849,7 +849,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.75;
+            const precioactual = producto.precio * 0.65;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
