@@ -1030,7 +1030,7 @@ btnWhatsapp.addEventListener('click', () => {
     });
     mensaje += `Total: $${calcularTotal()}`;
 
-    const telefono = '3794884299'; // Ingresa aquí el número de teléfono de destino
+    const telefono = '3765188420'; // Ingresa aquí el número de teléfono de destino
     const url = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensaje)}`;
     window.open(url);
 });
