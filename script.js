@@ -21,7 +21,7 @@ const productos = [
         nombre: "Mate de Rugby",
         oferta: false,
         categoria: "Mates",
-        precio: 12000,
+        precio: 13000,
         unidades: 1,
         imagen: "img/rugby.png",
         descripcion: "Mate de pelota de Rugby, impreso con material PLA y pintado a mano. El precio es por unidad."
@@ -30,7 +30,7 @@ const productos = [
         nombre: "Mate de Pokemon",
         oferta: false,
         categoria: "Mates",
-        precio: 9500,
+        precio: 11500,
         unidades: 1,
         imagen: "img/mate charmander.png",
         descripcion: "Mate de Pokemon Charmander, impreso con material PLA y pintado a mano. El precio es por unidad."
@@ -552,8 +552,8 @@ const productos = [
         nombre: "Llaveros de personajes",
         oferta: false,
         categoria: "Llaveros",
-        precio: 10000,
-        unidades: 4,
+        precio: 3500,
+        unidades: 1,
         imagen: "img/llaveros personajes.jpg",
         descripcion: "Llaveros de personajes, impresos con material PLA y pintados a mano. El precio es por unidad."
     },
@@ -561,8 +561,8 @@ const productos = [
         nombre: "Llaveros de Flork",
         oferta: false,
         categoria: "Llaveros",
-        precio: 18000,
-        unidades: 20,
+        precio: 1300,
+        unidades: 1,
         imagen: "img/flork.jpg",
         descripcion: "Llaveros Flork de distintos modelos, 5 cm de largo aproximadamente, impresos con material PLA. El precio es por 20 unidades."
     },
@@ -570,8 +570,8 @@ const productos = [
         nombre: "Llaveros de equipos",
         oferta: false,
         categoria: "Llaveros",
-        precio: 20500,
-        unidades: 20,
+        precio: 1500,
+        unidades: 1,
         imagen: "img/equipos.jpg",
         descripcion: "Llaveros de distintos equipos, impresos con material PLA. El precio es por 20 unidades."
     },
@@ -579,8 +579,8 @@ const productos = [
         nombre: "Llaveros de autodefensa",
         oferta: false,
         categoria: "Llaveros",
-        precio: 12000,
-        unidades: 5,
+        precio: 2500,
+        unidades: 1,
         imagen: "img/llavero gato.jpg",
         descripcion: "Llaveros de autodefensa con forma de gatos, impresos con material PLA. El precio es por 5 unidades."
     },
@@ -597,8 +597,8 @@ const productos = [
         nombre: "Llaveros animales porta celulares",
         oferta: false,
         categoria: "Llaveros",
-        precio: 6000,
-        unidades: 5,
+        precio: 1500,
+        unidades: 1,
         imagen: "img/llaveros animales.jpg",
         descripcion: "Llaveros de animales porta celulares, impresos con material PLA. El precio es por 5 unidades."
     },
@@ -857,6 +857,7 @@ function mostrarProductos() {
             <h3>${producto.nombre}</h3>
             <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
             <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud.</p>
+            <p class="precio">Llevando ${producto.unidades*3} ud. $${producto.precio*0.65} x ${producto.unidades} ud.</p>
         </div>
     `;
 
@@ -870,6 +871,7 @@ function mostrarProductos() {
                 <h3>${producto.nombre}</h3>
                 <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
                 <p class="precio">$${precioactual} x ${producto.unidades} ud.</p>
+                <p class="precio">Llevando ${producto.unidades*3} ud. $${producto.precio*0.65} x ${producto.unidades} ud.</p>
             </div>
         `;
             division.innerHTML += productoHTML;
