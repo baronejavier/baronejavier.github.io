@@ -8,15 +8,15 @@ body {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Estilos de encabezado */
 
 header {
     background-color: #1f6330;
-    color: #fff;
-    background-image: url("img/fondo2.jpg");
+    color: #ffffff;
+    background-image: url("img/fondo1.png");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +117,12 @@ a {
 
 header {
     background-color: var(--secondary-color);
-    color: #fff;
+    color: #7bff61;
+    text-shadow: 
+        -1px -1px 0 #000,  /* Sombra superior izquierda */
+        1px -1px 0 #000,   /* Sombra superior derecha */
+        -1px 1px 0 #000,   /* Sombra inferior izquierda */
+        1px 1px 0 #000;    /* Sombra inferior derecha */
 }
 
 nav ul li a {
