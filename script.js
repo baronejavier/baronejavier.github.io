@@ -907,19 +907,41 @@ function mostrarProductos() {
             document.documentElement.style.overflow = 'hidden';
         });
 
-        // Agregar evento de clic al botón de cierre para ocultar la división
-        const cerrar = contenido.querySelector(".cerrar");
-        cerrar.addEventListener("click", function (event) {
-            event.stopPropagation();
-            contenido.style.display = "none";
-            document.documentElement.style.overflow = 'auto';
-        });
+        // Agregar evento de clic para mostrar/ocultar la división como ventana
+division.addEventListener("click", function (event) {
+    // Verificar si el botón fue el elemento que recibió el clic
+    if (event.target.classList.contains("agregar-carrito")) {
+        return; // No hacer nada si fue el botón
+    }
 
-        // Agregar el contenido a la división
-        division.appendChild(contenido);
+    contenido.style.display = "block";
+    document.documentElement.style.overflow = 'hidden';
+    history.pushState({ modalOpen: true }, null, window.location.href); // Empuja un nuevo estado al historial
+});
 
-        // Agregar la división al contenedor principal
-        listaProductos.appendChild(division);
+// Agregar evento de clic al botón de cierre para ocultar la división
+const cerrar = contenido.querySelector(".cerrar");
+cerrar.addEventListener("click", function (event) {
+    event.stopPropagation();
+    contenido.style.display = "none";
+    document.documentElement.style.overflow = 'auto';
+    history.back(); // Retrocede en el historial
+});
+
+// Agregar evento para detectar cuando el usuario presiona el botón de volver del navegador
+window.addEventListener("popstate", function (event) {
+    if (contenido.style.display === "block") {
+        contenido.style.display = "none";
+        document.documentElement.style.overflow = 'auto';
+    }
+});
+
+// Agregar el contenido a la división
+division.appendChild(contenido);
+
+// Agregar la división al contenedor principal
+listaProductos.appendChild(division);
+
     });
 
 
@@ -987,7 +1009,7 @@ function mostrarCarrito() {
     carritoLista.innerHTML = '';
     productosSeleccionados.forEach((producto, index) => {
         const li = document.createElement('li');
-        li.textContent = `${producto.nombre} - $${producto.precio} `;
+        li.textContent = `${producto.nombre} `;
         const botonQuitar = document.createElement('button');
         botonQuitar.innerText = 'Quitar';
         botonQuitar.onclick = function () {
@@ -997,27 +1019,7 @@ function mostrarCarrito() {
         li.appendChild(botonQuitar);
         carritoLista.appendChild(li);
     });
-    if (productosSeleccionados.length > 4) {
-        carritoTotal.textContent = "$" + calcularTotal() + " (-5%)";
-    }
-    if (productosSeleccionados.length < 5) {
-        carritoTotal.textContent = "$" + calcularTotal();
-    }
 }
-
-function calcularTotal() {
-    let total = 0;
-    productosSeleccionados.forEach((producto) => {
-        total += producto.precio;
-    });
-
-    if (productosSeleccionados.length > 2) {
-        total = total * 0.95; // Aplicar descuento del 5%
-    }
-
-    return total.toFixed(2);
-}
-
 
 function quitarDelCarrito(index) {
     productosSeleccionados.splice(index, 1);
@@ -1028,9 +1030,9 @@ const btnWhatsapp = document.getElementById('btn-whatsapp');
 btnWhatsapp.addEventListener('click', () => {
     let mensaje = 'Lista de compras:\n';
     productosSeleccionados.forEach((producto) => {
-        mensaje += `${producto.nombre} - $${producto.precio}\n`;
+        mensaje += `${producto.nombre}\n`;
     });
-    mensaje += `Total: $${calcularTotal()}`;
+    
 
     const telefono = '3765188420'; // Ingresa aquí el número de teléfono de destino
     const url = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensaje)}`;
