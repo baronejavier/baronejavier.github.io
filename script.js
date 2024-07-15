@@ -54,6 +54,15 @@ const productos = [
         descripcion: "Mate de carpincho, impreso con material PLA. El precio es por unidad."
     },
     {
+        nombre: "Mate y posavaso Hello Kitty",
+        oferta: false,
+        categoria: "Mates",
+        precio: 12000,
+        unidades: 2,
+        imagen: "img/kitty.png",
+        descripcion: "Mate y posavaso de Hello Kitty, impreso con material PLA. El precio es por el conjunto."
+    },
+    {
         nombre: "Mate de calavera",
         oferta: false,
         categoria: "Mates",
