@@ -743,7 +743,7 @@ const productos = [
         categoria: "Otros",
         precio: 12500,
         unidades: 1,
-        imagen: "img/portaespiral.jpeg",
+        imagen: "img/portaespiral.jpg",
         descripcion: "Porta espiral Dr. Strange, de 15 cm de altura. El precio es por unidad."
     },
     {
