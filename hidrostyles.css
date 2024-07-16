@@ -7,7 +7,7 @@ body, html {
 }
 
 header {
-    background-color: #8BC34A; /* Verde claro */
+    background-color: #267a50; /* Verde claro */
     padding: 20px;
     text-align: center;
     font-size: 2em;
@@ -104,10 +104,10 @@ footer {
 
 /* Estilos de la sección "Sobre Nosotros" */
 #sobre-nosotros {
-    background-color: #8BC34A; /* Gris claro */
+    background-color: #267a50;
     padding: 50px;
     text-align: justify;
-    color: #ffffff; /* Negro */
+    color: #ffffff;
 }
 
 #sobre-nosotros h2 {

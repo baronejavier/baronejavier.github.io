@@ -1037,7 +1037,7 @@ function quitarDelCarrito(index) {
 const btnWhatsapp = document.getElementById('btn-whatsapp');
 
 btnWhatsapp.addEventListener('click', () => {
-    let mensaje = 'Lista de compras:\n';
+    let mensaje = 'Lista para consultar stock:\n';
     productosSeleccionados.forEach((producto) => {
         mensaje += `${producto.nombre}\n`;
     });
