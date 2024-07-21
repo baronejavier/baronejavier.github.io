@@ -118,7 +118,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de la Tierra",
-        oferta: true,
+        oferta: false,
         categoria: "Lamparas",
         precio: 6500,
         unidades: 1,
@@ -570,8 +570,8 @@ const productos = [
         nombre: "Llaveros de Flork",
         oferta: false,
         categoria: "Llaveros",
-        precio: 950,
-        unidades: 1,
+        precio: 9000,
+        unidades: 10,
         imagen: "img/flork.jpg",
         descripcion: "Llaveros Flork de distintos modelos, 5 cm de largo aproximadamente, impresos con material PLA. El precio es por 20 unidades."
     },
@@ -579,8 +579,8 @@ const productos = [
         nombre: "Llaveros de equipos",
         oferta: false,
         categoria: "Llaveros",
-        precio: 800,
-        unidades: 1,
+        precio: 8500,
+        unidades: 10,
         imagen: "img/equipos.jpg",
         descripcion: "Llaveros de distintos equipos, impresos con material PLA. El precio es por 20 unidades."
     },
@@ -588,8 +588,8 @@ const productos = [
         nombre: "Llaveros de autodefensa",
         oferta: false,
         categoria: "Llaveros",
-        precio: 1700,
-        unidades: 1,
+        precio: 8500,
+        unidades: 10,
         imagen: "img/llavero gato.jpg",
         descripcion: "Llaveros de autodefensa con forma de gatos, impresos con material PLA. El precio es por 5 unidades."
     },
@@ -606,8 +606,8 @@ const productos = [
         nombre: "Llaveros animales porta celulares",
         oferta: false,
         categoria: "Llaveros",
-        precio: 900,
-        unidades: 1,
+        precio: 4500,
+        unidades: 5,
         imagen: "img/llaveros animales.jpg",
         descripcion: "Llaveros de animales porta celulares, impresos con material PLA. El precio es por 5 unidades."
     },
