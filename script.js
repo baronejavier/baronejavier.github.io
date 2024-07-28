@@ -66,7 +66,7 @@ const productos = [
         nombre: "Mate de calavera",
         oferta: false,
         categoria: "Mates",
-        precio: 10500,
+        precio: 9000,
         unidades: 1,
         imagen: "img/mate calavera.jpg",
         descripcion: "Mate de calavera, impreso con material PLA. El precio es por unidad."
@@ -82,9 +82,9 @@ const productos = [
     },
     {
         nombre: "Mates temáticos",
-        oferta: true,
+        oferta: false,
         categoria: "Mates",
-        precio: 6500,
+        precio: 6000,
         unidades: 1,
         imagen: "img/mate1500.jpg",
         descripcion: "Mates de diamantes y caballos, impresos con material PLA. El precio es por unidad."
@@ -129,7 +129,7 @@ const productos = [
         nombre: "Macetas de Afrodita y Venus",
         oferta: true,
         categoria: "Macetas",
-        precio: 8500,
+        precio: 8000,
         unidades: 1,
         imagen: "img/venus.jpg",
         descripcion: "Macetas Venus y Afrodita, de 15 cm de altura. El precio es por unidad."
@@ -219,7 +219,7 @@ const productos = [
         nombre: "Souvenir alianzas de casamientos",
         oferta: false,
         categoria: "Adornos",
-        precio: 4000,
+        precio: 5000,
         unidades: 1,
         imagen: "img/anillos.jpg",
         descripcion: "Souvenir para casamientos en forma de alianzas, con las iniciales y colores a elegir. Es de 20 cm x 18,8 cm x 3,5 mm. El precio es por unidad."
@@ -273,7 +273,7 @@ const productos = [
         nombre: "Porta lápices",
         oferta: false,
         categoria: "Adornos",
-        precio: 7000,
+        precio: 6500,
         unidades: 1,
         imagen: "img/portalapices.jpg",
         descripcion: "Porta lápices de David (15 cm de altura), Bob Patiño (15 cm de altura) y Baby Groot, y de Homero arbusto. El precio es por unidad."
@@ -300,7 +300,7 @@ const productos = [
         nombre: "Demon Slayer",
         oferta: false,
         categoria: "Figuras",
-        precio: 7500,
+        precio: 7000,
         unidades: 1,
         imagen: "img/figuras.jpg",
         descripcion: "Figuras de Nezuko Kamado (10 cm de altura), Tanjiro Kamado (15 cm de altura), Zenitsu Agatsuma (15 cm de altura) e Inozuke Hashibira (15 cm de altura). Impresas con material PLA. El precio es por unidad."
@@ -309,7 +309,7 @@ const productos = [
         nombre: "Nezuko con caja portalapices",
         oferta: true,
         categoria: "Figuras",
-        precio: 18000,
+        precio: 17500,
         unidades: 1,
         imagen: "img/nezuko.jpg",
         descripcion: "Caja portalapices de Nezuko, de 12 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -426,7 +426,7 @@ const productos = [
         nombre: "Mario",
         oferta: false,
         categoria: "Figuras",
-        precio: 6500,
+        precio: 8000,
         unidades: 1,
         imagen: "img/mario.jpg",
         descripcion: "Figura de Mario, de 15 cm de altura. Impresa con material PLA. El precio es por unidad."
@@ -442,7 +442,7 @@ const productos = [
     },
     {
         nombre: "Five Nights At Freddy",
-        oferta: true,
+        oferta: false,
         categoria: "Figuras",
         precio: 5000,
         unidades: 1,
@@ -678,7 +678,7 @@ const productos = [
         nombre: "Prensa para celulares",
         oferta: false,
         categoria: "Herramientas",
-        precio: 9000,
+        precio: 11000,
         unidades: 6,
         imagen: "img/prensa.jpg",
         descripcion: "Prensa pequeña para reparación de celulares. El precio es por 6 unidades."
@@ -714,7 +714,7 @@ const productos = [
         nombre: "Combo porta bolsa + chapita",
         oferta: false,
         categoria: "Mascotas",
-        precio: 4500,
+        precio: 5000,
         unidades: 2,
         imagen: "img/combo mascota.jpg",
         descripcion: "Combo de porta bolsas para desechos de mascotas más chapita identificatoria, ideales para la hora de pasearlos."
@@ -732,7 +732,7 @@ const productos = [
         nombre: "Chapitas para mascotas",
         oferta: false,
         categoria: "Mascotas",
-        precio: 2500,
+        precio: 3000,
         unidades: 1,
         imagen: "img/huesitos.jpg",
         descripcion: "Chapitas para mascotas, con el nombre delante y el número telefónico por detrás, impresos con material PLA en dos colores. El precio es por unidad."
@@ -750,7 +750,7 @@ const productos = [
         nombre: "Billetera/ tarjetero",
         oferta: false,
         categoria: "Otros",
-        precio: 4500,
+        precio: 5000,
         unidades: 1,
         imagen: "img/billetera.png",
         descripcion: "Billetera/ tarjetero personalizable en color e iniciales. El precio es por unidad."
