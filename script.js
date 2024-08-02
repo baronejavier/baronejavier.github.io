@@ -3,7 +3,7 @@ const productos = [
         nombre: "Set de mate de Stitch",
         oferta: false,
         categoria: "Mates",
-        precio: 13500,
+        precio: 15500,
         unidades: 1,
         imagen: "img/mate set.png",
         descripcion: "Set de mate de Stitch y Ángel. Incluye el mate, bombilla, yerbero, azucarero y cucharita."
@@ -12,7 +12,7 @@ const productos = [
         nombre: "Mates grandes",
         oferta: false,
         categoria: "Mates",
-        precio: 8500,
+        precio: 8000,
         unidades: 1,
         imagen: "img/mate2500.jpg",
         descripcion: "Mates de los personajes Stitch, Ángel, Kitty y de Hogwarts (Harry Potter) impresos con material PLA. El precio es por unidad."
@@ -21,7 +21,7 @@ const productos = [
         nombre: "Mate de Rugby",
         oferta: false,
         categoria: "Mates",
-        precio: 8500,
+        precio: 9500,
         unidades: 1,
         imagen: "img/rugby.png",
         descripcion: "Mate de pelota de Rugby, impreso con material PLA y pintado a mano. El precio es por unidad."
@@ -30,7 +30,7 @@ const productos = [
         nombre: "Mate de Pokemon",
         oferta: false,
         categoria: "Mates",
-        precio: 6500,
+        precio: 7500,
         unidades: 1,
         imagen: "img/mate charmander.png",
         descripcion: "Mate de Pokemon Charmander, impreso con material PLA y pintado a mano. El precio es por unidad."
@@ -39,7 +39,7 @@ const productos = [
         nombre: "Mate de Alejandro Magno",
         oferta: false,
         categoria: "Mates",
-        precio: 6500,
+        precio: 7500,
         unidades: 1,
         imagen: "img/alejandro magno.jpg",
         descripcion: "Mate de Alejandro Magno (Alexander the great), impreso con material PLA. El precio es por unidad."
@@ -48,7 +48,7 @@ const productos = [
         nombre: "Mate de carpincho",
         oferta: false,
         categoria: "Mates",
-        precio: 6500,
+        precio: 7500,
         unidades: 1,
         imagen: "img/carpincho mate.jpg",
         descripcion: "Mate de carpincho, impreso con material PLA. El precio es por unidad."
@@ -57,7 +57,7 @@ const productos = [
         nombre: "Mate y posavaso Hello Kitty",
         oferta: false,
         categoria: "Mates",
-        precio: 8500,
+        precio: 9000,
         unidades: 2,
         imagen: "img/kitty.png",
         descripcion: "Mate y posavaso de Hello Kitty, impreso con material PLA. El precio es por el conjunto."
@@ -66,7 +66,7 @@ const productos = [
         nombre: "Mate de calavera",
         oferta: false,
         categoria: "Mates",
-        precio: 8000,
+        precio: 9500,
         unidades: 1,
         imagen: "img/mate calavera.jpg",
         descripcion: "Mate de calavera, impreso con material PLA. El precio es por unidad."
@@ -75,7 +75,7 @@ const productos = [
         nombre: "Mates de personajes",
         oferta: false,
         categoria: "Mates",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/mate2000.jpg",
         descripcion: "Mates de los personajes Stitch, Ángel, Hongos de Mario Bross, Chimuelo y Luna, impresos con material PLA. El precio es por unidad."
@@ -84,7 +84,7 @@ const productos = [
         nombre: "Mates temáticos",
         oferta: false,
         categoria: "Mates",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/mate1500.jpg",
         descripcion: "Mates de diamantes y caballos, impresos con material PLA. El precio es por unidad."
@@ -93,7 +93,7 @@ const productos = [
         nombre: "Mates personalizados",
         oferta: false,
         categoria: "Mates",
-        precio: 7500,
+        precio: 9000,
         unidades: 1,
         imagen: "img/mate personalizado.jpg",
         descripcion: "Mates personalizados, impresos con material PLA. El precio es por unidad."
@@ -102,7 +102,7 @@ const productos = [
         nombre: "Despolvillador de yerba mate personalizado",
         oferta: false,
         categoria: "Mates",
-        precio: 9000,
+        precio: 10500,
         unidades: 1,
         imagen: "img/despolvillador.jpg",
         descripcion: "Despolvillador de yerba mate personalizado con su nombre o logo, impreso en 3D con material PLA. Se puede realizar en otros colores. El precio es por unidad."
@@ -111,7 +111,7 @@ const productos = [
         nombre: "Estructra de lampara de astronauta",
         oferta: false,
         categoria: "Lamparas",
-        precio: 7000,
+        precio: 8500,
         unidades: 1,
         imagen: "img/astronauta.jpg",
         descripcion: "Estructura para armar lampara de astronauta sobre la luna,de 18 cm de altura. El precio es por unidad."
@@ -120,7 +120,7 @@ const productos = [
         nombre: "Estructra de lampara de la Tierra",
         oferta: false,
         categoria: "Lamparas",
-        precio: 4000,
+        precio: 4500,
         unidades: 1,
         imagen: "img/planeta.jpg",
         descripcion: "Estructura para armar lampara de la Tierra sobre un pilar de 13 cm de altura. El precio es por unidad."
@@ -129,7 +129,7 @@ const productos = [
         nombre: "Macetas de Afrodita y Venus",
         oferta: true,
         categoria: "Macetas",
-        precio: 7000,
+        precio: 8000,
         unidades: 1,
         imagen: "img/venus.jpg",
         descripcion: "Macetas Venus y Afrodita, de 15 cm de altura. El precio es por unidad."
@@ -138,17 +138,17 @@ const productos = [
         nombre: "Macetas Baby Groot",
         oferta: true,
         categoria: "Macetas",
-        precio: 7500,
+        precio: 8500,
         unidades: 1,
         imagen: "img/combo groot.jpg",
         descripcion: "Macetas Baby Groot, de 15 cm de altura. El precio es por unidad."
     },
     {
         nombre: "Macetas Robert",
-        oferta: true,
+        oferta: false,
         categoria: "Macetas",
-        precio: 9500,
-        unidades: 4,
+        precio: 6000,
+        unidades: 2,
         imagen: "img/RS.jpg",
         descripcion: "Modelos de maceta Robert, de 8 cm de altura, disponibles en blanco. El precio por cuatro unidades."
     },
@@ -156,7 +156,7 @@ const productos = [
         nombre: "Macetas de David/ Bob Patiño",
         oferta: true,
         categoria: "Macetas",
-        precio: 6500,
+        precio: 8000,
         unidades: 1,
         imagen: "img/david.jpg",
         descripcion: "Modelos de macetas de David (15 cm) y Bob Patiño (15 cm). El precio es por unidad."
@@ -165,7 +165,7 @@ const productos = [
         nombre: "Macetas de animales",
         oferta: true,
         categoria: "Macetas",
-        precio: 7000,
+        precio: 8500,
         unidades: 2,
         imagen: "img/maceta animales.jpg",
         descripcion: "Modelos de macetas de gato y perro, de 8 cm de altura, disponibles en transparente, blanco, bronce y negro, con y sin plantas. El precio por dos unidades."
@@ -174,7 +174,7 @@ const productos = [
         nombre: "Macetas de meditación",
         oferta: true,
         categoria: "Macetas",
-        precio: 3500,
+        precio: 4000,
         unidades: 1,
         imagen: "img/cabezas.jpg",
         descripcion: "Modelos de macetas de meditación de 8 cm de altura, disponibles en transparente, blanco y bronce. El precio es por unidad."
@@ -183,7 +183,7 @@ const productos = [
         nombre: "Florero dona y maceta David",
         oferta: true,
         categoria: "Adornos",
-        precio: 9500,
+        precio: 11500,
         unidades: 2,
         imagen: "img/david dona.jpg",
         descripcion: "Maceta de David y florero dona minimalista, ambos de 15 cm de altura. El precio es de los dos floreros."
@@ -192,7 +192,7 @@ const productos = [
         nombre: "Busto y columna griega",
         oferta: false,
         categoria: "Adornos",
-        precio: 5500,
+        precio: 6500,
         unidades: 2,
         imagen: "img/grecia.jpg",
         descripcion: "Busto de mujer (10 cm de altura) y columna griega (10 cm de altura), impresos con material PLA. El precio es por ambas figuras."
@@ -201,7 +201,7 @@ const productos = [
         nombre: "Gatos enamorados 25 cm",
         oferta: false,
         categoria: "Adornos",
-        precio: 10500,
+        precio: 12000,
         unidades: 1,
         imagen: "img/adornos.jpg",
         descripcion: "Figura de pareja de gatos, 25 cm de altura. El precio es por unidad."
@@ -210,7 +210,7 @@ const productos = [
         nombre: "Gatos enamorados 20 cm",
         oferta: false,
         categoria: "Adornos",
-        precio: 8000,
+        precio: 9500,
         unidades: 1,
         imagen: "img/adornos.jpg",
         descripcion: "Figura de pareja de gatos, 20 cm de altura. El precio es por unidad."
@@ -219,7 +219,7 @@ const productos = [
         nombre: "Souvenir alianzas de casamientos",
         oferta: false,
         categoria: "Adornos",
-        precio: 5500,
+        precio: 7000,
         unidades: 1,
         imagen: "img/anillos.jpg",
         descripcion: "Souvenir para casamientos en forma de alianzas, con las iniciales y colores a elegir. Es de 20 cm x 18,8 cm x 3,5 mm. El precio es por unidad."
@@ -228,7 +228,7 @@ const productos = [
         nombre: "Souvenir porta foto",
         oferta: false,
         categoria: "Adornos",
-        precio: 12000,
+        precio: 14500,
         unidades: 6,
         imagen: "img/souvenir.jpg",
         descripcion: "Souvenir porta foto de dos colores. El nombre es de 12 cm x 5 cm x 1,5 cm. El precio es por 6 unidades."
@@ -237,7 +237,7 @@ const productos = [
         nombre: "Cuadritos decorativos",
         oferta: true,
         categoria: "Adornos",
-        precio: 9000,
+        precio: 10500,
         unidades: 4,
         imagen: "img/cuadros1.jpg",
         descripcion: "Cuadritos decorativos de 22 cm de largo, disponibles en color negro y bronce. El precio es por cuatro unidades."
@@ -246,7 +246,7 @@ const productos = [
         nombre: "Cuadritos decorativos tropicales",
         oferta: false,
         categoria: "Adornos",
-        precio: 6500,
+        precio: 7500,
         unidades: 3,
         imagen: "img/cuadros2.jpg",
         descripcion: "Cuadritos decorativos de 22 cm de largo, disponibles en color negro. El precio es por tres unidades."
@@ -255,7 +255,7 @@ const productos = [
         nombre: "Copa del mundo personalizada",
         oferta: false,
         categoria: "Adornos",
-        precio: 8000,
+        precio: 9500,
         unidades: 1,
         imagen: "img/copa.jpg",
         descripcion: "Copa del mundo, de 22 cm de altura, de material PLA y pintada a mano. El precio es por unidad."
@@ -264,7 +264,7 @@ const productos = [
         nombre: "Elefantes de la fortuna",
         oferta: true,
         categoria: "Adornos",
-        precio: 5000,
+        precio: 6000,
         unidades: 1,
         imagen: "img/elefantes.jpg",
         descripcion: "Figuras de elefantes de la fortuna, de 10 cm de altura. Disponibles en color bronce y blanco. El precio es por unidad."
@@ -273,7 +273,7 @@ const productos = [
         nombre: "Porta lápices",
         oferta: false,
         categoria: "Adornos",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/portalapices.jpg",
         descripcion: "Porta lápices de David (15 cm de altura), Bob Patiño (15 cm de altura) y Baby Groot, y de Homero arbusto. El precio es por unidad."
@@ -282,7 +282,7 @@ const productos = [
         nombre: "Cartel domiciliario",
         oferta: false,
         categoria: "Adornos",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/cartel.png",
         descripcion: "Cartel domiciliario de 20 cm x 10 cm, de plástico PLA en dos colores. El precio es por unidad."
@@ -291,7 +291,7 @@ const productos = [
         nombre: "Otros adornos",
         oferta: true,
         categoria: "Adornos",
-        precio: 3500,
+        precio: 4000,
         unidades: 1,
         imagen: "img/otros adornos.jpg",
         descripcion: "Figura de ángel (15 cm de altura) y de pareja de pingüinos (12 cm de altura) impresas con material PLA. El precio es por unidad."
@@ -300,7 +300,7 @@ const productos = [
         nombre: "Demon Slayer",
         oferta: false,
         categoria: "Figuras",
-        precio: 6000,
+        precio: 7000,
         unidades: 1,
         imagen: "img/figuras.jpg",
         descripcion: "Figuras de Nezuko Kamado (10 cm de altura), Tanjiro Kamado (15 cm de altura), Zenitsu Agatsuma (15 cm de altura) e Inozuke Hashibira (15 cm de altura). Impresas con material PLA. El precio es por unidad."
@@ -309,7 +309,7 @@ const productos = [
         nombre: "Nezuko con caja portalapices",
         oferta: true,
         categoria: "Figuras",
-        precio: 14500,
+        precio: 17000,
         unidades: 1,
         imagen: "img/nezuko.jpg",
         descripcion: "Caja portalapices de Nezuko, de 12 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -318,7 +318,7 @@ const productos = [
         nombre: "Itachi Uchiha",
         oferta: true,
         categoria: "Figuras",
-        precio: 11000,
+        precio: 13000,
         unidades: 1,
         imagen: "img/itachi.jpg",
         descripcion: "Figura de Itachi Uchiha, 15 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -327,7 +327,7 @@ const productos = [
         nombre: "Naruto Uzumaki",
         oferta: false,
         categoria: "Figuras",
-        precio: 6500,
+        precio: 8000,
         unidades: 1,
         imagen: "img/naruto.jpg",
         descripcion: "Figura de Naruto Uzumaki, 20 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -336,7 +336,7 @@ const productos = [
         nombre: "Sasuke Uchiha",
         oferta: true,
         categoria: "Figuras",
-        precio: 8000,
+        precio: 9000,
         unidades: 1,
         imagen: "img/sasuke.jpg",
         descripcion: "Figura de Sasuke Uchiha, 15 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -345,7 +345,7 @@ const productos = [
         nombre: "Pochita",
         oferta: false,
         categoria: "Figuras",
-        precio: 6500,
+        precio: 8000,
         unidades: 1,
         imagen: "img/pochita.jpg",
         descripcion: "Figura de Pochita articulada, 13 cm de altura y 16 cm de largo, impresa con material PLA. El precio es por unidad."
@@ -354,7 +354,7 @@ const productos = [
         nombre: "Vegeta 32 cm de altura",
         oferta: true,
         categoria: "Figuras",
-        precio: 16500,
+        precio: 19500,
         unidades: 1,
         imagen: "img/majin vegeta.png",
         descripcion: "Figura de Vegeta, de 32 cm de altura. Impresa con material PLA y pintada a mano. El precio es por unidad."
@@ -363,7 +363,7 @@ const productos = [
         nombre: "Dragon Ball de 20 cm de altura",
         oferta: true,
         categoria: "Figuras",
-        precio: 11500,
+        precio: 13500,
         unidades: 1,
         imagen: "img/DB.jpg",
         descripcion: "Figuras de Gohan (versión niño y adulto), Frezeer, Goku, Trunks, Vegeta y Gogetta. Todos estos modelos son de 20 cm de altura. Impresas con material PLA. El precio es por unidad."
@@ -372,7 +372,7 @@ const productos = [
         nombre: "Dragon Ball de 10 cm de altura",
         oferta: false,
         categoria: "Figuras",
-        precio: 7000,
+        precio: 8000,
         unidades: 2,
         imagen: "img/DB2.jpg",
         descripcion: "Figuras de Piccolo, Goku, Gohan, Vegeta (con distintas transformaciones) y Gogetta. Todos estos modelos son de 10 cm de altura. Impresas con material PLA. El precio es por dos unidades."
@@ -381,7 +381,7 @@ const productos = [
         nombre: "Pokemon",
         oferta: false,
         categoria: "Figuras",
-        precio: 14500,
+        precio: 17500,
         unidades: 4,
         imagen: "img/pokemon.jpg",
         descripcion: "Figuras de Squirtle (10 cm de altura), Charmander (10 cm de altura), Bulbasaur (8 cm de altura), Pikachu (10 cm de altura) y Jigglypuff (8 cm de altura). Impresas con material PLA. El precio es por cuatro unidades."
@@ -390,7 +390,7 @@ const productos = [
         nombre: "La Bella y la Bestia",
         oferta: false,
         categoria: "Figuras",
-        precio: 15000,
+        precio: 18000,
         unidades: 5,
         imagen: "img/bella y bestia.jpg",
         descripcion: "Figuras de Din Don (13 cm de altura), Bella (10 cm de altura), Sra.Potts (12 cm de altura), Chip (7 cm de altura) y Lumiere (15 cm de altura). Impresas con material PLA. El precio es por las cinco unidades."
@@ -399,7 +399,7 @@ const productos = [
         nombre: "Caballeros del zodiaco (Saint Seiya)",
         oferta: false,
         categoria: "Figuras",
-        precio: 10000,
+        precio: 12000,
         unidades: 1,
         imagen: "img/CZ.png",
         descripcion: "Figuras de Seiya de Pegasus y Afrodita de Piscis. Estos dos modelos son de 15 cm de altura. Impresas con material PLA. El precio es por unidad."
@@ -408,7 +408,7 @@ const productos = [
         nombre: "Pandora Box de Pegasus",
         oferta: true,
         categoria: "Figuras",
-        precio: 13000,
+        precio: 14500,
         unidades: 1,
         imagen: "img/CZ2.jpg",
         descripcion: "Pandora Box de Pegasus, de 12 cm de altura. Impresa con material PLA. Viene con un llavero de regalo."
@@ -417,7 +417,7 @@ const productos = [
         nombre: "Attack on Titan",
         oferta: false,
         categoria: "Figuras",
-        precio: 12000,
+        precio: 14500,
         unidades: 1,
         imagen: "img/AT.jpg",
         descripcion: "Figuras de Eren Yeager (versión Titan) y Levi Ackerman. Estos dos modelos son de 20 cm de altura. Impresas con material PLA. El precio es por unidad."
@@ -426,7 +426,7 @@ const productos = [
         nombre: "Mario",
         oferta: false,
         categoria: "Figuras",
-        precio: 7000,
+        precio: 8000,
         unidades: 1,
         imagen: "img/mario.jpg",
         descripcion: "Figura de Mario, de 15 cm de altura. Impresa con material PLA. El precio es por unidad."
@@ -435,7 +435,7 @@ const productos = [
         nombre: "Sonic",
         oferta: false,
         categoria: "Figuras",
-        precio: 7000,
+        precio: 8000,
         unidades: 1,
         imagen: "img/Sonic.jpg",
         descripcion: "Figura de Sonic de 10 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -444,7 +444,7 @@ const productos = [
         nombre: "Five Nights At Freddy",
         oferta: false,
         categoria: "Figuras",
-        precio: 4000,
+        precio: 4500,
         unidades: 1,
         imagen: "img/freddy.jpg",
         descripcion: "Figura articulada de Five Nights At Freddy, de 15 cm de largo. El precio es por unidad."
@@ -453,7 +453,7 @@ const productos = [
         nombre: "Speakerman large de Skibidi Toilet",
         oferta: false,
         categoria: "Figuras",
-        precio: 4500,
+        precio: 5500,
         unidades: 1,
         imagen: "img/speakerman.jpg",
         descripcion: "Figura articulada de Speakerman large de Skibidi Toilet, de 19 cm de largo. El precio es por unidad."
@@ -462,7 +462,7 @@ const productos = [
         nombre: "Figuras articuladas",
         oferta: false,
         categoria: "Figuras",
-        precio: 5500,
+        precio: 7000,
         unidades: 3,
         imagen: "img/articulados.jpg",
         descripcion: "Figuras articuladas de Dragon (15 cm de largo), tiburon (15 cm de largo) y el  escinco cocodrilo (Tribolonotus gracilis) de 28 cm de largo. El precio es por los tres modelos."
@@ -471,7 +471,7 @@ const productos = [
         nombre: "Messi",
         oferta: false,
         categoria: "Figuras",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/messi.jpg",
         descripcion: "Figura de Messi con la camiseta con tres estrellas, de 15 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -480,7 +480,7 @@ const productos = [
         nombre: "Jesús de Nazaret",
         oferta: false,
         categoria: "Figuras",
-        precio: 4500,
+        precio: 5500,
         unidades: 1,
         imagen: "img/jesus.jpg",
         descripcion: "Figura de Jesús de Nazaret, de 15 cm de altura, impresa con material PLA. El precio es por unidad."
@@ -489,7 +489,7 @@ const productos = [
         nombre: "Portajoystick de Sasuke/ Ironman",
         oferta: true,
         categoria: "Gamer",
-        precio: 17500,
+        precio: 20500,
         unidades: 1,
         imagen: "img/PJ4000.png",
         descripcion: "Portajoystick o celular de Sasuke y Ironman, impresos con material PLA. El precio es por unidad."
@@ -498,7 +498,7 @@ const productos = [
         nombre: "Portajoystick de Call of Duty (Ghost)/ Crash Bandicoot",
         oferta: true,
         categoria: "Gamer",
-        precio: 14000,
+        precio: 16500,
         unidades: 1,
         imagen: "img/PJ3800.jpg",
         descripcion: "Portajoystick o celular de Call of Duty (Ghost) y Crash Bandicoot, impresos con material PLA. El precio es por unidad."
@@ -507,7 +507,7 @@ const productos = [
         nombre: "Portajoystick de Spiderman",
         oferta: false,
         categoria: "Gamer",
-        precio: 9500,
+        precio: 11500,
         unidades: 1,
         imagen: "img/spiderman.jpg",
         descripcion: "Portajoystick o celular de Spiderman, impreso con material PLA. El precio es por unidad."
@@ -516,7 +516,7 @@ const productos = [
         nombre: "Portajoystick de God of War/ Goku",
         oferta: true,
         categoria: "Gamer",
-        precio: 14000,
+        precio: 17000,
         unidades: 1,
         imagen: "img/PJ3500.jpg",
         descripcion: "Portajoystick o celular de God of War y Goku, impresos con material PLA. El precio es por unidad."
@@ -525,7 +525,7 @@ const productos = [
         nombre: "Portajoystick de Mano de Hevy Metal",
         oferta: false,
         categoria: "Gamer",
-        precio: 6000,
+        precio: 7000,
         unidades: 1,
         imagen: "img/PJ2000.jpg",
         descripcion: "Portajoystick o celular de Mano de Hevy Metal, impreso con material PLA. El precio es por unidad."
@@ -534,7 +534,7 @@ const productos = [
         nombre: "Porta auricular de Batman",
         oferta: true,
         categoria: "Gamer",
-        precio: 11500,
+        precio: 13500,
         unidades: 1,
         imagen: "img/batman.jpg",
         descripcion: "Porta auricular del modelo de Batman, impreso con material PLA."
@@ -543,7 +543,7 @@ const productos = [
         nombre: "Porta PS VITA",
         oferta: false,
         categoria: "Gamer",
-        precio: 3500,
+        precio: 4000,
         unidades: 1,
         imagen: "img/psvita.jpg",
         descripcion: "Porta consola PS vita, impreso con material PLA. El precio es por unidad."
@@ -552,7 +552,7 @@ const productos = [
         nombre: "Porta CD PS5",
         oferta: false,
         categoria: "Gamer",
-        precio: 3500,
+        precio: 4000,
         unidades: 1,
         imagen: "img/PS5 cd.jpg",
         descripcion: "Porta CD de consola PS5, impreso con material PLA. El precio es por unidad."
@@ -561,7 +561,7 @@ const productos = [
         nombre: "Llaveros de personajes",
         oferta: false,
         categoria: "Llaveros",
-        precio: 2000,
+        precio: 7500,
         unidades: 1,
         imagen: "img/llaveros personajes.jpg",
         descripcion: "Llaveros de personajes, impresos con material PLA y pintados a mano. El precio es por unidad."
@@ -579,7 +579,7 @@ const productos = [
         nombre: "Llaveros de equipos",
         oferta: false,
         categoria: "Llaveros",
-        precio: 7500,
+        precio: 8500,
         unidades: 10,
         imagen: "img/equipos.jpg",
         descripcion: "Llaveros de distintos equipos, impresos con material PLA. El precio es por 10 unidades."
@@ -588,7 +588,7 @@ const productos = [
         nombre: "Llaveros de autodefensa",
         oferta: false,
         categoria: "Llaveros",
-        precio: 6000,
+        precio: 7000,
         unidades: 5,
         imagen: "img/llavero gato.jpg",
         descripcion: "Llaveros de autodefensa con forma de gatos, impresos con material PLA. El precio es por 5 unidades."
@@ -597,7 +597,7 @@ const productos = [
         nombre: "Llaveros personalizados",
         oferta: false,
         categoria: "Llaveros",
-        precio: 19500,
+        precio: 22500,
         unidades: 20,
         imagen: "img/llpe.jpg",
         descripcion: "Llaveros personalizados en dos colores, impresos con material PLA. El precio es por 20 unidades."
@@ -606,7 +606,7 @@ const productos = [
         nombre: "Llaveros animales porta celulares",
         oferta: false,
         categoria: "Llaveros",
-        precio: 3500,
+        precio: 4000,
         unidades: 5,
         imagen: "img/llaveros animales.jpg",
         descripcion: "Llaveros de animales porta celulares, impresos con material PLA. El precio es por 5 unidades."
@@ -615,7 +615,7 @@ const productos = [
         nombre: "Set para cocina de Bob esponja",
         oferta: false,
         categoria: "Cocina",
-        precio: 8500,
+        precio: 10000,
         unidades: 2,
         imagen: "img/otros.jpg",
         descripcion: "Porta esponja de Bob esponja y Porta virulana de Patricio estrella. El precio es por el set."
@@ -624,7 +624,7 @@ const productos = [
         nombre: "Porta esponja de Homero Simpson",
         oferta: false,
         categoria: "Cocina",
-        precio: 3500,
+        precio: 4500,
         unidades: 1,
         imagen: "img/homero esponja.jpg",
         descripcion: "Porta esponja versión Homero arbusto. El precio es por unidad."
@@ -633,7 +633,7 @@ const productos = [
         nombre: "Cortadores de Mario",
         oferta: false,
         categoria: "Cocina",
-        precio: 2500,
+        precio: 3000,
         unidades: 3,
         imagen: "img/cortador mario.jpg",
         descripcion: "Cortadores de Mario, impresos con material PLA, de 8,5 cm x 8,5 cm aproximadamente. El precio es por los tres modelos."
@@ -642,7 +642,7 @@ const productos = [
         nombre: "Cortadores navideños",
         oferta: false,
         categoria: "Cocina",
-        precio: 2500,
+        precio: 3000,
         unidades: 4,
         imagen: "img/cortantes navideños.jpg",
         descripcion: "Cortadores navideños, impresos con material PLA, de entre 8 y 12 cm de largo aproximadamente. El precio es por los cuatro modelos."
@@ -651,7 +651,7 @@ const productos = [
         nombre: "Clip para bolsas",
         oferta: false,
         categoria: "Cocina",
-        precio: 4000,
+        precio: 4500,
         unidades: 2,
         imagen: "img/clip bolsa.jpg",
         descripcion: "Clip para bolsas con tapa a rosca, impreso con material PLA. El precio es por dos unidades."
@@ -660,7 +660,7 @@ const productos = [
         nombre: "Accesorios para latas",
         oferta: true,
         categoria: "Cocina",
-        precio: 9000,
+        precio: 10000,
         unidades: 1,
         imagen: "img/latas.jpg",
         descripcion: "Porta latas para almacenar en el refrigerador con capacidad para cinco latas de 473 cc. El precio es por unidad."
@@ -669,7 +669,7 @@ const productos = [
         nombre: "Cuchara para revolver tragos",
         oferta: false,
         categoria: "Cocina",
-        precio: 6500,
+        precio: 7500,
         unidades: 12,
         imagen: "img/revolvedor.jpg",
         descripcion: "Revolvedor de tragos fríos personalizados, 18 cm de largo. Fabricados a partir de 12 unidades. El precio es por 12 unidades."
@@ -678,7 +678,7 @@ const productos = [
         nombre: "Prensa para celulares",
         oferta: false,
         categoria: "Herramientas",
-        precio: 9000,
+        precio: 10500,
         unidades: 6,
         imagen: "img/prensa.jpg",
         descripcion: "Prensa pequeña para reparación de celulares. El precio es por 6 unidades."
@@ -687,7 +687,7 @@ const productos = [
         nombre: "Soporte para casco con llavero",
         oferta: false,
         categoria: "Herramientas",
-        precio: 3500,
+        precio: 4000,
         unidades: 1,
         imagen: "img/casco.jpg",
         descripcion: "Soporte de pared para casco de moto con llavero incluido. El precio es por unidad."
@@ -696,7 +696,7 @@ const productos = [
         nombre: "Jabonera y porta cepillos",
         oferta: true,
         categoria: "Baño",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/jabonera.jpg",
         descripcion: "Jabonera y porta cepillos para el baño, impreso con material PLA, disponible en color blanco."
@@ -705,7 +705,7 @@ const productos = [
         nombre: "Porta cepillos y vomitador de pasta dental de Star Wars",
         oferta: true,
         categoria: "Baño",
-        precio: 6500,
+        precio: 8000,
         unidades: 2,
         imagen: "img/cepillo.jpg",
         descripcion: "Porta cepillo de 6 cm de altura y vomitador de pasta dental versión Star Wars, impreso con material PLA."
@@ -714,7 +714,7 @@ const productos = [
         nombre: "Porta bolsas para mascotas",
         oferta: false,
         categoria: "Mascotas",
-        precio: 2000,
+        precio: 2500,
         unidades: 1,
         imagen: "img/portabolsa.jpg",
         descripcion: "Porta bolsas para desechos de mascotas, ideales para la hora de pasearlos."
@@ -723,7 +723,7 @@ const productos = [
         nombre: "Chapitas para mascotas",
         oferta: false,
         categoria: "Mascotas",
-        precio: 2500,
+        precio: 3000,
         unidades: 1,
         imagen: "img/huesitos.jpg",
         descripcion: "Chapitas para mascotas, con el nombre delante y el número telefónico por detrás, impresos con material PLA en dos colores. El precio es por unidad."
@@ -732,7 +732,7 @@ const productos = [
         nombre: "Porta espiral Dr. Strange",
         oferta: true,
         categoria: "Otros",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/portaespiral.jpg",
         descripcion: "Porta espiral Dr. Strange, de 15 cm de altura. El precio es por unidad."
@@ -741,7 +741,7 @@ const productos = [
         nombre: "Billetera/ tarjetero",
         oferta: false,
         categoria: "Otros",
-        precio: 4500,
+        precio: 5500,
         unidades: 1,
         imagen: "img/billetera.png",
         descripcion: "Billetera/ tarjetero personalizable en color e iniciales. El precio es por unidad."
@@ -750,7 +750,7 @@ const productos = [
         nombre: "Soporte para computadoras portatiles netbook (15 pulgadas)",
         oferta: true,
         categoria: "Otros",
-        precio: 10500,
+        precio: 12000,
         unidades: 1,
         imagen: "img/soporte notebook.jpg",
         descripcion: "Disponibles para notebook y netbook. El precio es por unidad."
@@ -759,7 +759,7 @@ const productos = [
         nombre: "Soporte para computadoras portatiles notebook (17 pulgadas)",
         oferta: false,
         categoria: "Otros",
-        precio: 11500,
+        precio: 13500,
         unidades: 1,
         imagen: "img/soporte notebook.jpg",
         descripcion: "Disponibles para notebook y netbook. El precio es por unidad."
@@ -768,7 +768,7 @@ const productos = [
         nombre: "Soporte para celular o tablet",
         oferta: false,
         categoria: "Otros",
-        precio: 2500,
+        precio: 3000,
         unidades: 1,
         imagen: "img/soporte celular.jpg",
         descripcion: "Soportes personalizados en distintos colores, los cuales se pueden regular el ángulo de inclinación y sirven tanto para tablet como para celular. El precio es por unidad."
@@ -777,7 +777,7 @@ const productos = [
         nombre: "Porta maquillajes",
         oferta: true,
         categoria: "Otros",
-        precio: 4000,
+        precio: 5000,
         unidades: 1,
         imagen: "img/portamaquillaje.jpg",
         descripcion: "Porta maquillajes de 15 cm de largo, disponibles en blanco, rosa y negro. El precio es por unidad."
@@ -786,7 +786,7 @@ const productos = [
         nombre: "Flauta dulce con forma de dragón",
         oferta: true,
         categoria: "Otros",
-        precio: 5500,
+        precio: 6500,
         unidades: 1,
         imagen: "img/flauta dragon.jpg",
         descripcion: "Flauta dulce con forma de dragón, impresa con material PLA, disponible en varios colores. El precio es por unidad."
@@ -795,7 +795,7 @@ const productos = [
         nombre: "Posavasos personalizados",
         oferta: false,
         categoria: "Otros",
-        precio: 4000,
+        precio: 5000,
         unidades: 1,
         imagen: "img/posavaso.jpg",
         descripcion: "Posavaso personalizado en dos colores, con tu nombre o logo favorito. El precio es por unidad."
@@ -804,7 +804,7 @@ const productos = [
         nombre: "Porta pelota de tenis",
         oferta: false,
         categoria: "Otros",
-        precio: 2000,
+        precio: 2500,
         unidades: 1,
         imagen: "img/porta pelota.jpg",
         descripcion: "Porta pelota de tenis, impreso con material PLA. El precio es por unidad."
