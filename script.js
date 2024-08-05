@@ -1,7 +1,7 @@
 const productos = [
     {
         nombre: "Set de mate de Stitch",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 15500,
         unidades: 1,
@@ -10,7 +10,7 @@ const productos = [
     },
     {
         nombre: "Mates grandes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 8000,
         unidades: 1,
@@ -19,7 +19,7 @@ const productos = [
     },
     {
         nombre: "Mate de Rugby",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 9500,
         unidades: 1,
@@ -28,7 +28,7 @@ const productos = [
     },
     {
         nombre: "Mate de Pokemon",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 7500,
         unidades: 1,
@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 7500,
         unidades: 1,
@@ -55,7 +55,7 @@ const productos = [
     },
     {
         nombre: "Mate y posavaso Hello Kitty",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 9000,
         unidades: 2,
@@ -73,7 +73,7 @@ const productos = [
     },
     {
         nombre: "Mates de personajes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 6500,
         unidades: 1,
@@ -82,7 +82,7 @@ const productos = [
     },
     {
         nombre: "Mates temáticos",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 6500,
         unidades: 1,
@@ -109,7 +109,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de astronauta",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 8500,
         unidades: 1,
@@ -118,7 +118,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de la Tierra",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 4500,
         unidades: 1,
@@ -145,7 +145,7 @@ const productos = [
     },
     {
         nombre: "Macetas Robert",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 6000,
         unidades: 2,
@@ -208,7 +208,7 @@ const productos = [
     },
     {
         nombre: "Gatos enamorados 20 cm",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 9500,
         unidades: 1,
@@ -244,7 +244,7 @@ const productos = [
     },
     {
         nombre: "Cuadritos decorativos tropicales",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 7500,
         unidades: 3,
@@ -271,7 +271,7 @@ const productos = [
     },
     {
         nombre: "Porta lápices",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 6500,
         unidades: 1,
@@ -298,7 +298,7 @@ const productos = [
     },
     {
         nombre: "Demon Slayer",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 7000,
         unidades: 1,
@@ -325,7 +325,7 @@ const productos = [
     },
     {
         nombre: "Naruto Uzumaki",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 8000,
         unidades: 1,
@@ -343,7 +343,7 @@ const productos = [
     },
     {
         nombre: "Pochita",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 8000,
         unidades: 1,
@@ -370,7 +370,7 @@ const productos = [
     },
     {
         nombre: "Dragon Ball de 10 cm de altura",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 8000,
         unidades: 2,
@@ -379,7 +379,7 @@ const productos = [
     },
     {
         nombre: "Pokemon",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 17500,
         unidades: 4,
@@ -388,7 +388,7 @@ const productos = [
     },
     {
         nombre: "La Bella y la Bestia",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 18000,
         unidades: 5,
@@ -397,7 +397,7 @@ const productos = [
     },
     {
         nombre: "Caballeros del zodiaco (Saint Seiya)",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 12000,
         unidades: 1,
@@ -415,7 +415,7 @@ const productos = [
     },
     {
         nombre: "Attack on Titan",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 14500,
         unidades: 1,
@@ -433,7 +433,7 @@ const productos = [
     },
     {
         nombre: "Sonic",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 8000,
         unidades: 1,
@@ -442,7 +442,7 @@ const productos = [
     },
     {
         nombre: "Five Nights At Freddy",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 4500,
         unidades: 1,
@@ -460,7 +460,7 @@ const productos = [
     },
     {
         nombre: "Figuras articuladas",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 7000,
         unidades: 3,
@@ -469,7 +469,7 @@ const productos = [
     },
     {
         nombre: "Messi",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 6500,
         unidades: 1,
@@ -505,7 +505,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Spiderman",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 11500,
         unidades: 1,
@@ -523,7 +523,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Mano de Hevy Metal",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 7000,
         unidades: 1,
@@ -568,7 +568,7 @@ const productos = [
     },
     {
         nombre: "Llaveros de Flork",
-        oferta: false,
+        oferta: true,
         categoria: "Llaveros",
         precio: 7000,
         unidades: 10,
@@ -577,7 +577,7 @@ const productos = [
     },
     {
         nombre: "Llaveros de equipos",
-        oferta: false,
+        oferta: true,
         categoria: "Llaveros",
         precio: 8500,
         unidades: 10,
@@ -604,7 +604,7 @@ const productos = [
     },
     {
         nombre: "Llaveros animales porta celulares",
-        oferta: false,
+        oferta: true,
         categoria: "Llaveros",
         precio: 4000,
         unidades: 5,
@@ -613,7 +613,7 @@ const productos = [
     },
     {
         nombre: "Set para cocina de Bob esponja",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 10000,
         unidades: 2,
@@ -622,7 +622,7 @@ const productos = [
     },
     {
         nombre: "Porta esponja de Homero Simpson",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 4500,
         unidades: 1,
@@ -712,7 +712,7 @@ const productos = [
     },
     {
         nombre: "Porta bolsas para mascotas",
-        oferta: false,
+        oferta: true,
         categoria: "Mascotas",
         precio: 2500,
         unidades: 1,
@@ -849,11 +849,11 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.95;
+            const precioactual = producto.precio * 0.65;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
-        <h4>EN OFERTA!</h4>
+        <h4>EN OFERTA HASTA AGOTAR STOCK!</h4>
             <h3>${producto.nombre}</h3>
             <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
             <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud.</p>
