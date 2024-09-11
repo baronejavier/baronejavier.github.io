@@ -17,13 +17,14 @@ header {
     background-color: #1f6330;
     color: #ffffff;
     background-image: url("img/fondo1.png");
-    background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
     height: 100%;
     font-size: 150%;
     text-align: center;
     padding: 10%;
+    background-size: cover; /* La imagen se ajustará para cubrir todo el espacio disponible */
+    background-position: center; /* La imagen se centrará en el encabezado */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
 }
 
 h1 {
