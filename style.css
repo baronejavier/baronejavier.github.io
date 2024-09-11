@@ -21,9 +21,9 @@ header {
     font-size: 150%;
     text-align: center;
     padding: 10%;
-    background-size: cover; /* La imagen se ajustará para cubrir todo el espacio disponible */
+    background-size:contain;
     background-position: center; /* La imagen se centrará en el encabezado */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-repeat:repeat-y;
     background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
 }
 
