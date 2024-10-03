@@ -1,7 +1,7 @@
 const productos = [
     {
         nombre: "Set de mate de Stitch",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 19500,
         unidades: 1,
@@ -10,7 +10,7 @@ const productos = [
     },
     {
         nombre: "Mates grandes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 10000,
         unidades: 1,
@@ -19,7 +19,7 @@ const productos = [
     },
     {
         nombre: "Mate de Rugby",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 9500,
         unidades: 1,
@@ -28,7 +28,7 @@ const productos = [
     },
     {
         nombre: "Mate de Pokemon",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 9000,
         unidades: 1,
@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 9000,
         unidades: 1,
@@ -55,7 +55,7 @@ const productos = [
     },
     {
         nombre: "Mate y posavaso Hello Kitty",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 10000,
         unidades: 2,
@@ -73,7 +73,7 @@ const productos = [
     },
     {
         nombre: "Mates de personajes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 7500,
         unidades: 1,
@@ -82,7 +82,7 @@ const productos = [
     },
     {
         nombre: "Mates temáticos",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 7500,
         unidades: 1,
@@ -100,7 +100,7 @@ const productos = [
     },
     {
         nombre: "Despolvillador de yerba mate personalizado",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 13000,
         unidades: 1,
@@ -109,7 +109,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de astronauta",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 10500,
         unidades: 1,
@@ -118,7 +118,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de la Tierra",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 8000,
         unidades: 1,
@@ -127,7 +127,7 @@ const productos = [
     },
     {
         nombre: "Macetas de Afrodita y Venus",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 10000,
         unidades: 1,
@@ -136,7 +136,7 @@ const productos = [
     },
     {
         nombre: "Macetas Baby Groot",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 11000,
         unidades: 1,
@@ -145,16 +145,16 @@ const productos = [
     },
     {
         nombre: "Macetas Robert",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
-        precio: 7500,
-        unidades: 2,
+        precio: 15000,
+        unidades: 4,
         imagen: "img/RS.jpg",
-        descripcion: "Modelos de maceta Robert, de 8 cm de altura, disponibles en blanco. El precio por cuatro unidades."
+        descripcion: "Modelos de maceta Robert, de 8 cm de altura, disponibles en blanco. El precio es por cuatro unidades."
     },
     {
         nombre: "Macetas de David/ Bob Patiño",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 10000,
         unidades: 1,
@@ -163,7 +163,7 @@ const productos = [
     },
     {
         nombre: "Macetas de animales",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 10500,
         unidades: 2,
@@ -172,7 +172,7 @@ const productos = [
     },
     {
         nombre: "Macetas de meditación",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 5000,
         unidades: 1,
@@ -181,7 +181,7 @@ const productos = [
     },
     {
         nombre: "Florero dona y maceta David",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 14500,
         unidades: 2,
@@ -208,7 +208,7 @@ const productos = [
     },
     {
         nombre: "Gatos enamorados 20 cm",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 12000,
         unidades: 1,
@@ -262,7 +262,7 @@ const productos = [
     },
     {
         nombre: "Elefantes de la fortuna",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 7500,
         unidades: 1,
@@ -271,7 +271,7 @@ const productos = [
     },
     {
         nombre: "Porta lápices",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 8500,
         unidades: 1,
@@ -442,7 +442,7 @@ const productos = [
     },
     {
         nombre: "Five Nights At Freddy",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 6000,
         unidades: 1,
@@ -478,7 +478,7 @@ const productos = [
     },
     {
         nombre: "Jesús de Nazaret",
-        oferta: false,
+        oferta: true,
         categoria: "Figuras",
         precio: 7000,
         unidades: 1,
@@ -505,7 +505,7 @@ const productos = [
     },
     {
         nombre: "Portajoystick de Spiderman",
-        oferta: false,
+        oferta: true,
         categoria: "Gamer",
         precio: 15000,
         unidades: 1,
@@ -613,7 +613,7 @@ const productos = [
     },
     {
         nombre: "Set para cocina de Bob esponja",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 12500,
         unidades: 2,
@@ -622,7 +622,7 @@ const productos = [
     },
     {
         nombre: "Porta esponja de Homero Simpson",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 5500,
         unidades: 1,
@@ -667,7 +667,7 @@ const productos = [
     },
     {
         nombre: "Porta latas de cerveza",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 5500,
         unidades: 1,
@@ -703,7 +703,7 @@ const productos = [
     },
     {
         nombre: "Jabonera y porta cepillos",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 8500,
         unidades: 1,
@@ -712,7 +712,7 @@ const productos = [
     },
     {
         nombre: "Porta cepillos y vomitador de pasta dental de Star Wars",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 8500,
         unidades: 2,
@@ -757,7 +757,7 @@ const productos = [
     },
     {
         nombre: "Soporte para computadoras portatiles netbook (15 pulgadas)",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 14500,
         unidades: 1,
@@ -784,7 +784,7 @@ const productos = [
     },
     {
         nombre: "Porta maquillajes",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 6000,
         unidades: 1,
@@ -793,7 +793,7 @@ const productos = [
     },
     {
         nombre: "Flauta dulce con forma de dragón",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 8000,
         unidades: 1,
@@ -858,7 +858,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.9;
+            const precioactual = producto.precio * 0.8;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
