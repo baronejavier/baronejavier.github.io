@@ -36,15 +36,6 @@ const productos = [
         descripcion: "Mate de Pokemon Charmander, impreso con material PLA y pintado a mano. El precio es por unidad."
     },
     {
-        nombre: "Mate de Alejandro Magno",
-        oferta: false,
-        categoria: "Mates",
-        precio: 9500,
-        unidades: 1,
-        imagen: "img/alejandro magno.jpg",
-        descripcion: "Mate de Alejandro Magno (Alexander the great), impreso con material PLA. El precio es por unidad."
-    },
-    {
         nombre: "Mate de carpincho",
         oferta: true,
         categoria: "Mates",
@@ -858,7 +849,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.8;
+            const precioactual = producto.precio * 0.95;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
