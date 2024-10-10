@@ -85,6 +85,10 @@ main {
     transition: background-color 0.3s;
 }
 
+.btna:hover {
+    background-color: #135f17;
+}
+
 .btn:hover {
     background-color: #005f8a;
 }
