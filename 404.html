@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=/" />
-    <script>window.location.href = "/"</script>
-    <title>Redirigiendo...</title>
-  </head>
-  <body>
-    Si no redirige automáticamente, <a href="/">haz clic aquí</a>.
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página no encontrada – Redirigiendo...</title>
+  <script>
+    // Obtiene la ruta sin query string ni hash
+    const path = window.location.pathname.toLowerCase();
+
+    if (path === "/mcpizza") {
+      // Redirige a /pizza, manteniendo hash y query opcional si querés
+      window.location.href = "/pizza";
+    }
+    // Si no es /mcpizza, queda la página de error 404
+  </script>
+  <meta http-equiv="refresh" content="5; url=/" />
+</head>
+<body>
+  <h1>404 – Página no encontrada</h1>
+  <p>Si no estás siendo redirigido automáticamente, <a href="/">haz clic aquí</a> para volver al inicio.</p>
+</body>
 </html>
