@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Oops! Página no encontrada – Redirigiendo...</title>
   <style>
-    /* Reset básico */
     * {
       margin: 0;
       padding: 0;
@@ -40,7 +39,7 @@
 
     p {
       font-size: 1.1rem;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       color: #f0f0f0;
     }
 
@@ -69,20 +68,21 @@
   </style>
   <script>
     const path = window.location.pathname.toLowerCase();
-    const hash = window.location.hash;      
-    const search = window.location.search;  
+    const hash = window.location.hash;
+    const search = window.location.search;
 
     if (path.startsWith("/mcpizza")) {
-      window.location.href = "/pizza" + search + hash;
+      // Redirección inmediata
+      window.location.replace("/pizza" + search + hash);
     }
   </script>
 </head>
 <body>
   <div class="container">
     <h1>😮 Oops!</h1>
-    <p>Parece que la página que buscás no existe o fue movida.</p>
-    <a href="/">Volver al inicio</a>
-    <div class="redirect-info">Redirigiendo automáticamente...</div>
+    <p>La página que buscás no existe o fue movida.<br>Redirigiendo a <strong>Grupo Misiones</strong>...</p>
+    <a href="/">Volver al inicio de Grupo Misiones</a>
+    <div class="redirect-info">Si no se redirige automáticamente, hacé clic en el botón.</div>
   </div>
 </body>
 </html>
