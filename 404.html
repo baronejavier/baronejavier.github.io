@@ -2,21 +2,87 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Página no encontrada – Redirigiendo...</title>
-  <script>
-    // Obtiene la ruta sin query string ni hash
-    const path = window.location.pathname.toLowerCase();
-
-    if (path === "/mcpizza") {
-      // Redirige a /pizza, manteniendo hash y query opcional si querés
-      window.location.href = "/pizza";
+  <title>Oops! Página no encontrada – Redirigiendo...</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    // Si no es /mcpizza, queda la página de error 404
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff6b6b, #f7d794);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(0,0,0,0.5);
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #f0f0f0;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      background: #fff;
+      color: #ff6b6b;
+      font-weight: bold;
+      padding: 12px 25px;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: #ff6b6b;
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    .redirect-info {
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: #ffeaa7;
+    }
+  </style>
+  <script>
+    const path = window.location.pathname.toLowerCase();
+    const hash = window.location.hash;      
+    const search = window.location.search;  
+
+    if (path.startsWith("/mcpizza")) {
+      window.location.href = "/pizza" + search + hash;
+    }
   </script>
-  <meta http-equiv="refresh" content="5; url=/" />
 </head>
 <body>
-  <h1>404 – Página no encontrada</h1>
-  <p>Si no estás siendo redirigido automáticamente, <a href="/">haz clic aquí</a> para volver al inicio.</p>
+  <div class="container">
+    <h1>😮 Oops!</h1>
+    <p>Parece que la página que buscás no existe o fue movida.</p>
+    <a href="/">Volver al inicio</a>
+    <div class="redirect-info">Redirigiendo automáticamente...</div>
+  </div>
 </body>
 </html>
